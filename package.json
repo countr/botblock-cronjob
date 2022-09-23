@@ -14,7 +14,7 @@
     "superagent": "8.0.0"
   },
   "devDependencies": {
-    "@tsconfig/node16-strictest": "1.0.3",
+    "@tsconfig/node16-strictest": "1.0.4",
     "@types/node": "16.11.59",
     "@types/superagent": "4.1.15",
     "eslint": "8.23.1",
