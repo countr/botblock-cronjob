@@ -9,7 +9,7 @@
     "watch": "tsc -w"
   },
   "dependencies": {
-    "blapi": "3.0.0",
+    "blapi": "3.1.0",
     "dotenv": "16.0.3",
     "superagent": "8.0.6"
   },
