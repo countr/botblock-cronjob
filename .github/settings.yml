@@ -1,0 +1,17 @@
+_extends: biaw/.github
+
+repository:
+  name: botblock-cronjob
+  description: "A GitHub cronjob worker to update bot lists with guild counts"
+  homepage: "https://countr.xyz"
+  private: false
+  topics: "cronjob, hacktoberfest, botblock, blapi"
+
+branches:
+  - name: main
+    protection:
+      required_status_checks:
+        checks:
+          - context: ESLint
+          - context: DeepScan
+          - context: Test Build
