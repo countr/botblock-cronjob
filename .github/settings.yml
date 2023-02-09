@@ -12,6 +12,7 @@ branches:
     protection:
       required_status_checks:
         checks:
+          - context: CodeQL
           - context: ESLint
           - context: DeepScan
           - context: Test Build
