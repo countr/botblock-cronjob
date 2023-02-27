@@ -1,5 +1,5 @@
-import { endpoint } from "../environment";
 import superagent from "superagent";
+import { endpoint } from "../environment";
 
 interface CountrApiResponse {
   shards: Record<string, { guilds: number }>;
