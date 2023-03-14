@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@tsconfig/node18-strictest': 1.0.0
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   blapi: 3.1.0
   dotenv: 16.0.3
@@ -18,10 +18,10 @@ dependencies:
 
 devDependencies:
   '@tsconfig/node18-strictest': 1.0.0
-  '@types/node': 18.15.2
+  '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   eslint: 8.36.0
-  eslint-config-promise: github.com/promise/eslint-config/7e2a7634821d1740e8417cdf384c58c77bbb9a01_jpalyieylsbpjrtzdvsi36kkmy
+  eslint-config-promise: github.com/promise/eslint-config/4aad21806e6105507a8f7fb1756a7f6843b93680_jpalyieylsbpjrtzdvsi36kkmy
   typescript: 4.9.5
 
 packages:
@@ -190,8 +190,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.15.2:
-    resolution: {integrity: sha512-sDPHm2wfx2QhrMDK0pOt2J4KLJMAcerqWNvnED0itPRJWvI+bK+uNHzcH1dFsBlf7G3u8tqXmRF3wkvL9yUwMw==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
 
   /@types/semver/7.3.13:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
@@ -201,13 +201,13 @@ packages:
     resolution: {integrity: sha512-tLfnlJf6A5mB6ddqF159GqcDizfzbMUB1/DeT59/wBNqzRTNNKsaw79A/1TZ84X+f/EwWH8FeuSkjlCLyqS/zQ==}
     dependencies:
       '@types/cookiejar': 2.1.2
-      '@types/node': 18.15.2
+      '@types/node': 18.15.3
     dev: true
 
   /@types/ws/8.5.4:
     resolution: {integrity: sha512-zdQDHKUgcX/zBc4GrwsE/7dVdAD8JR4EuiAXiiUhhfyIJXXb2+PrGshFyeXWQPMmmZ2XxgaqclgpIC7eTXc1mg==}
     dependencies:
-      '@types/node': 18.15.2
+      '@types/node': 18.15.3
     dev: false
 
   /@typescript-eslint/eslint-plugin/5.54.1_4rfaf6mlw2mmutqjcopwvbftpu:
@@ -2129,9 +2129,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/promise/eslint-config/7e2a7634821d1740e8417cdf384c58c77bbb9a01_jpalyieylsbpjrtzdvsi36kkmy:
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/7e2a7634821d1740e8417cdf384c58c77bbb9a01}
-    id: github.com/promise/eslint-config/7e2a7634821d1740e8417cdf384c58c77bbb9a01
+  github.com/promise/eslint-config/4aad21806e6105507a8f7fb1756a7f6843b93680_jpalyieylsbpjrtzdvsi36kkmy:
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/4aad21806e6105507a8f7fb1756a7f6843b93680}
+    id: github.com/promise/eslint-config/4aad21806e6105507a8f7fb1756a7f6843b93680
     name: eslint-config-promise
     version: 0.0.0
     peerDependencies:
