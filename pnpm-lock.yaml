@@ -4,7 +4,7 @@ specifiers:
   '@tsconfig/node18-strictest': 1.0.0
   '@types/node': 18.15.10
   '@types/superagent': 4.1.16
-  blapi: 3.1.0
+  blapi: 3.1.1
   dotenv: 16.0.3
   eslint: 8.36.0
   eslint-config-promise: github:promise/eslint-config
@@ -12,7 +12,7 @@ specifiers:
   typescript: 4.9.5
 
 dependencies:
-  blapi: 3.1.0_discord.js@14.7.1
+  blapi: 3.1.1_discord.js@14.7.1
   dotenv: 16.0.3
   superagent: 8.0.9
 
@@ -21,7 +21,7 @@ devDependencies:
   '@types/node': 18.15.10
   '@types/superagent': 4.1.16
   eslint: 8.36.0
-  eslint-config-promise: github.com/promise/eslint-config/94d62bcf9e181679f3ffd168549e6d373f2eae8a_af74gqs66hrpo4afpw2vbfddc4
+  eslint-config-promise: github.com/promise/eslint-config/a2ec7a7cc7fabfda99a6146127fc8b10acdd68d6_af74gqs66hrpo4afpw2vbfddc4
   typescript: 4.9.5
 
 packages:
@@ -442,8 +442,8 @@ packages:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
     dev: true
 
-  /blapi/3.1.0_discord.js@14.7.1:
-    resolution: {integrity: sha512-11UlGJpcIYCa8d2e9RZwBp1s9JgCRsxvqADN7R45rB0w9D4pvfE8OBTcoogmUsRV2VWsASLP5d2ALMF9QVOM1A==}
+  /blapi/3.1.1_discord.js@14.7.1:
+    resolution: {integrity: sha512-ts2bvJlfwKoAJnLBonhq8c5s3XoqV6XWr97ywVhnZtvgjHLdaYa1SYIM/xLBCG0bqtrjWBqInB3XmMYjl6nzhw==}
     peerDependencies:
       discord.js: 13 - 14
     dependencies:
@@ -2109,9 +2109,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/promise/eslint-config/94d62bcf9e181679f3ffd168549e6d373f2eae8a_af74gqs66hrpo4afpw2vbfddc4:
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/94d62bcf9e181679f3ffd168549e6d373f2eae8a}
-    id: github.com/promise/eslint-config/94d62bcf9e181679f3ffd168549e6d373f2eae8a
+  github.com/promise/eslint-config/a2ec7a7cc7fabfda99a6146127fc8b10acdd68d6_af74gqs66hrpo4afpw2vbfddc4:
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/a2ec7a7cc7fabfda99a6146127fc8b10acdd68d6}
+    id: github.com/promise/eslint-config/a2ec7a7cc7fabfda99a6146127fc8b10acdd68d6
     name: eslint-config-promise
     version: 0.0.0
     peerDependencies:
