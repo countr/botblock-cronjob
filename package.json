@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@tsconfig/node18-strictest": "1.0.0",
-    "@types/node": "18.16.1",
+    "@types/node": "18.16.2",
     "@types/superagent": "4.1.17",
     "eslint": "8.39.0",
     "eslint-config-promise": "github:promise/eslint-config",
