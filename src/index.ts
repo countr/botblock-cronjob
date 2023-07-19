@@ -1,9 +1,7 @@
 import { manualPost, setLogging } from "blapi";
-import { config } from "dotenv";
 import { botId, keys } from "./environment";
 import getCountrData from "./utils/countr";
 
-config();
 setLogging({ extended: true });
 
 void getCountrData().then(data => {
