@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "blapi": "3.1.2",
-    "dotenv": "16.4.2",
+    "dotenv": "16.4.3",
     "superagent": "8.1.2"
   },
   "devDependencies": {
