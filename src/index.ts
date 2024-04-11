@@ -17,7 +17,7 @@ void getCountrData()
       shards,
     );
   })
-  .catch(err => {
+  .catch((err: unknown) => {
     console.error("Failed to get Countr data:", err);
     process.exit(1);
   });
