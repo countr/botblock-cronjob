@@ -22,10 +22,5 @@
     "eslint-config-promise": "github:promise/eslint-config",
     "typescript": "5.7.2"
   },
-  "eslintConfig": {
-    "extends": "promise",
-    "rules": {
-      "no-console": "off"
-    }
-  }
+  "packageManager": "pnpm@9.15.0"
 }
