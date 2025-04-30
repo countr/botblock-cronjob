@@ -1,14 +1,19 @@
+import { Api as GGApi } from "@top-gg/sdk";
 import { manualPost, setLogging } from "blapi";
-import { botId, keys } from "./environment";
+import { botId, keys, topgg } from "./environment";
 import getCountrData from "./utils/countr";
 
+// blapi
 setLogging({ extended: true });
 
+// @top-gg/sdk
+const ggApi = new GGApi(topgg);
+
 void getCountrData()
-  .then(data => {
+  .then(async data => {
     const shards = Object.values(data.shards).map(shard => shard.guilds);
 
-    void manualPost(
+    await manualPost(
       shards.reduce((a, b) => a + b),
       botId,
       keys,
@@ -16,6 +21,16 @@ void getCountrData()
       shards.length,
       shards,
     );
+
+    await ggApi.postStats({
+      serverCount: shards.reduce((a, b) => a + b),
+      shardCount: shards.length,
+      shards,
+    })
+      .then(stats => {
+        // eslint-disable-next-line no-console
+        console.log(`Posted stats to Top.gg: ${JSON.stringify(stats)}`);
+      });
   })
   .catch((err: unknown) => {
     // eslint-disable-next-line no-console

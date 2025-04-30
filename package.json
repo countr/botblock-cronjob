@@ -9,6 +9,7 @@
     "start": "node ."
   },
   "dependencies": {
+    "@top-gg/sdk": "3.1.6",
     "blapi": "3.1.2",
     "dotenv": "16.5.0",
     "superagent": "10.2.0"
