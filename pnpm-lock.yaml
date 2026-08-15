@@ -22,8 +22,8 @@ importers:
         version: 10.3.0(supports-color@7.2.0)
     devDependencies:
       '@tsconfig/node18':
-        specifier: 18.2.6
-        version: 18.2.6
+        specifier: 18.2.7
+        version: 18.2.7
       '@tsconfig/strictest':
         specifier: 2.0.8
         version: 2.0.8
@@ -207,8 +207,8 @@ packages:
   '@top-gg/sdk@3.1.6':
     resolution: {integrity: sha512-qWWYDKAwJHaKaA/5EyLYMzfR76MwCbmKVMSXTPMd9FZFPHuLWJHO+m7Q8dWpWtcnunHa6evRAwlB3p83cht7Ww==}
 
-  '@tsconfig/node18@18.2.6':
-    resolution: {integrity: sha512-eAWQzAjPj18tKnDzmWstz4OyWewLUNBm9tdoN9LayzoboRktYx3Enk1ZXPmThj55L7c4VWYq/Bzq0A51znZfhw==}
+  '@tsconfig/node18@18.2.7':
+    resolution: {integrity: sha512-UyenTORreCUh8MKh2qbLGGHTRrxjBbSwvX0ZoWs6Jx1jrNS62PXEA3+VaLvmb0YDQrgGU3v3h7zB9Xs/BN1ozg==}
 
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
@@ -1808,7 +1808,7 @@ snapshots:
       raw-body: 2.5.3
       undici: 5.29.0
 
-  '@tsconfig/node18@18.2.6': {}
+  '@tsconfig/node18@18.2.7': {}
 
   '@tsconfig/strictest@2.0.8': {}
 
