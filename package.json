@@ -12,7 +12,7 @@
     "@top-gg/sdk": "3.1.6",
     "blapi": "3.1.2",
     "dotenv": "18.0.3",
-    "superagent": "10.3.0"
+    "superagent": "10.4.1"
   },
   "devDependencies": {
     "@tsconfig/node18": "18.2.7",
