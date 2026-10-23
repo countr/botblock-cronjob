@@ -1,10 +1,10 @@
 import { Api as GGApi } from "@top-gg/sdk";
-import { manualPost, setLogging } from "blapi";
+import { LogLevel, manualPost, setLogging } from "blapi";
 import { botId, keys, topgg } from "./environment";
 import getCountrData from "./utils/countr";
 
 // blapi
-setLogging({ extended: true });
+setLogging({ logLevel: LogLevel.All });
 
 // @top-gg/sdk
 const ggApi = new GGApi(topgg);
@@ -17,7 +17,7 @@ void getCountrData()
       shards.reduce((a, b) => a + b),
       botId,
       keys,
-      undefined as unknown as number, // eslint-disable-line no-undefined -- no other way to not specify the shard id
+      undefined, // eslint-disable-line no-undefined -- no other way to not specify the shard id
       shards.length,
       shards,
     );
