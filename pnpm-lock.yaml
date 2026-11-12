@@ -173,8 +173,8 @@ importers:
         specifier: 3.1.2
         version: 3.1.2(discord.js@14.28.0)
       dotenv:
-        specifier: 18.0.9
-        version: 18.0.9
+        specifier: 18.0.10
+        version: 18.0.10
       superagent:
         specifier: 10.4.2
         version: 10.4.2
@@ -196,7 +196,7 @@ importers:
         version: 10.14.0(jiti@2.7.0)
       eslint-config-promise:
         specifier: github:promise/eslint-config
-        version: https://codeload.github.com/promise/eslint-config/tar.gz/481070fe89770f2a2594e3963ed59b1f841cccf0(@stylistic/eslint-plugin@5.10.0(eslint@10.14.0(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-jest@29.17.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-perfectionist@5.13.0(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-react@7.37.5(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-tailwindcss@4.4.0(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.3)(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(globals@17.14.0)
+        version: https://codeload.github.com/promise/eslint-config/tar.gz/7bfa2fa12d2c3e70ae766ce17717952f1baad38c(@stylistic/eslint-plugin@5.10.0(eslint@10.14.0(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-jest@29.17.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-perfectionist@5.13.0(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-react@7.37.5(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-tailwindcss@4.4.0(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.3)(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(globals@17.14.0)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -622,8 +622,8 @@ packages:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}
     engines: {node: '>=0.10.0'}
 
-  dotenv@18.0.9:
-    resolution: {integrity: sha512-3fVOW4cB02R066PUSwn8O4TJyz9NckQl7F81blIbaq9jKBm2tSmOKky7ZHIXzGvkVPXCSn6jkpziBPZdGFs8Tw==}
+  dotenv@18.0.10:
+    resolution: {integrity: sha512-89FAA1xchzK2mxVWdr5F/0rldwiueXs6zJM86rO66EzekR1iBdiXRthyG+m5GvkJaFH3C2LESzamTkgndmLT2A==}
     engines: {node: '>=12'}
     hasBin: true
 
@@ -675,8 +675,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/481070fe89770f2a2594e3963ed59b1f841cccf0:
-    resolution: {gitHosted: true, integrity: sha512-b2LO8jKYB4gj/t4M+ALiZU0z7P7c1XLNcxjBWoPVnpA9Sg8zzaNlJXYLxGzLpt5Ji8wgEWES71B8ooBSpXJrlg==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/481070fe89770f2a2594e3963ed59b1f841cccf0}
+  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/7bfa2fa12d2c3e70ae766ce17717952f1baad38c:
+    resolution: {gitHosted: true, integrity: sha512-7DtKgFpKDgPCdHXJrnV7AJ84O13WVaLNqCTQsAA0pGrPogg3UZS4ENdG2lpBtYTOhGnvlg9YIdV1TyiPVNm73w==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/7bfa2fa12d2c3e70ae766ce17717952f1baad38c}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin': 5.10.0
@@ -2072,7 +2072,7 @@ snapshots:
     dependencies:
       esutils: 2.0.3
 
-  dotenv@18.0.9: {}
+  dotenv@18.0.10: {}
 
   dunder-proto@1.0.1:
     dependencies:
@@ -2198,7 +2198,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  ? eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/481070fe89770f2a2594e3963ed59b1f841cccf0(@stylistic/eslint-plugin@5.10.0(eslint@10.14.0(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-jest@29.17.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-perfectionist@5.13.0(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-react@7.37.5(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-tailwindcss@4.4.0(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.3)(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(globals@17.14.0)
+  ? eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/7bfa2fa12d2c3e70ae766ce17717952f1baad38c(@stylistic/eslint-plugin@5.10.0(eslint@10.14.0(jiti@2.7.0)))(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-jest@29.17.0(@typescript-eslint/eslint-plugin@8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-perfectionist@5.13.0(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint-plugin-react@7.37.5(eslint@10.14.0(jiti@2.7.0)))(eslint-plugin-tailwindcss@4.4.0(eslint@10.14.0(jiti@2.7.0))(tailwindcss@4.3.3)(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(globals@17.14.0)
   : dependencies:
       '@stylistic/eslint-plugin': 5.10.0(eslint@10.14.0(jiti@2.7.0))
       '@typescript-eslint/eslint-plugin': 8.72.1(@typescript-eslint/parser@8.72.1(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3))(eslint@10.14.0(jiti@2.7.0))(typescript@5.9.3)
